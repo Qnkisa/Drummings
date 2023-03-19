@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Spectral', serif;
+  background-color: black;
+  color: white;
+}
+
+.app{
+  background-color: white;
+  color: black;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  margin-top: 150px;
+}
+
+h1{
+  font-size:3rem;
+  margin-bottom: 30px;
+}
+
+p:first-child {
+  width: 100%;
+  background-color: black;
+  color:white;
+  font-style: italic;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+.drums{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.drum-pad{
+  color:white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+p:last-child{
+  font-size: 1.25rem;
+}
+
+p:last-child a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p:last-child a:hover{
+  text-decoration: underline;
+}
